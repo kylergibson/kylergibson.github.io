@@ -1,0 +1,86 @@
+/* ---- Background ---- */
+.kg-bg-darkgrey {
+    background-color: #323232;
+}
+
+/* ---- Navigation Bar ---- */
+.nav-tabs .active-tab .nav-link {
+    background-color: #007bff;
+    color: white;
+    font-weight: 500;
+}
+
+.kg-font-20 {
+    font-size: 20px;
+}
+
+.kg-font-30 {
+    font-size: 30px;
+}
+
+.kg-bg-grey {
+    background-color: #464646;
+}
+
+.kg-dropdown-bg-grey {
+    background-color: #464646;
+    color: #007bff;
+}
+
+.kg-dropdown-item-active {
+    background-color: #464646;
+    color: #007bff;
+    font-size: 20px;
+}
+
+.kg-dropdown-item-active:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.kg-hb-blue .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,123,255, 1)' stroke-width='2.5' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+
+  .kg-hb-blue.navbar-toggler {
+      border-color: #007bff;
+      border-width: 3px;
+  }
+
+/* ---- Portfolio ---- */ 
+
+.kg-font-blue {
+    color: #007bff;
+}
+.kg-underline {
+    /* text-decoration: underline;
+    text-decoration-color: #007bff;
+    text-decoration-thickness: 5px; */
+    border-bottom: 5px solid #007bff;
+}
+
+.kg-font-white {
+    color: white;
+}
+
+h1 {
+    border-bottom: 4 px #007bff;
+}
+
+/* ---- images ---- */
+.kg-mw-50 {
+    max-width: 50%!important;
+}
+
+/* ---- Resume ----- */
+
+.kg-underline-h3 {
+    border-bottom: 3px solid #007bff
+}
+
+.kg-list {
+    text-align: center;
+    list-style: none;
+    list-style-position: outside;
+    
+}

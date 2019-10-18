@@ -1,0 +1,106 @@
+/* ---- Background ---- */
+.kg-bg-darkgrey {
+    background-color: #011A27;
+}
+
+/* ---- Navigation Bar ---- */
+.nav-tabs .active-tab .nav-link {
+    background-color: #011A27;
+    color: #F0810F;
+    font-weight: 500;
+}
+
+.kg-font-yellow {
+    color: #e6df44;
+}
+.kg-font-20 {
+    font-size: 20px;
+    color: #F0810F;
+}
+
+.kg-font-30 {
+    font-size: 30px;
+}
+
+.kg-bg-grey {
+    background-color: #063852;
+}
+.kg-dropdown-bg-grey {
+    background-color: #063852;
+}
+.dropdown-toggle:open {
+    background-color: black;
+}
+.kg-dropdown-item-active {
+    background-color: #063852;
+    color: #e6df44;
+    font-size: 20px;
+    
+}
+.dropdown-menu {
+    /* background-color: var(--dark-gray); */
+    border-top: 1px solid #e6df44;
+    border-right: 1px solid #e6df44;
+    border-left: 1px solid #e6df44;
+    border-bottom: 1px solid #e6df44;
+} 
+
+
+.dropdown-toggle:active, .open .dropdown-toggle,.dropdown-toggle:focus {
+    background-color: #063852!important;
+    color: #f0810f !important;
+}
+.kg-dropdown-item-active:hover {
+    background-color: #e6df44;
+    color: #063852;
+}
+
+.kg-hb-blue .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(240,129,15, 1)' stroke-width='2.5' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+
+  .kg-hb-blue.navbar-toggler {
+      border-color: #f0810f;
+      border-width: 3px;
+  }
+
+/* ---- Portfolio ---- */ 
+
+.kg-font-blue {
+    color: #F0810F;
+}
+.kg-underline {
+    /* text-decoration: underline;
+    text-decoration-color: #007bff;
+    text-decoration-thickness: 5px; */
+    border-bottom: 5px solid #063852;
+}
+
+.kg-font-white {
+    color: white;
+}
+
+h1 {
+    border-bottom: 4 px #007bff;
+}
+.kg-underline-h2 {
+    border-bottom: 3px solid #063852;
+}
+
+/* ---- images ---- */
+.kg-mw-50 {
+    max-width: 50%!important;
+}
+
+/* ---- Resume ----- */
+
+.kg-underline-h3 {
+    border-bottom: 3px solid #007bff
+}
+
+.kg-list {
+    text-align: center;
+    list-style: none;
+    list-style-position: outside;
+    
+}
