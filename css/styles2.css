@@ -134,6 +134,7 @@ h1 {
 }
 
 .kg-underline-orange {
+    display: inline-block;
     border-bottom: 2px solid #f0810f; 
 }
 .block-underline {
@@ -149,12 +150,19 @@ h1 {
     list-style-position: outside;
     
 }
-div:after {
-    content:""; 
-    background: black; 
-    position: absolute; 
-    bottom: 0; 
-    left: 0; 
-    height: 50%; 
-    width: 1px;
-  }
+.all-border-yellow {
+    border-left-color: #e6df44;
+    border-right-color: #e6df44;
+    border-top-color: #e6df44;
+    border-bottom-color: #e6df44;
+    border-le
+    border-width: 3px;
+}
+.block-all-border {
+    display: inline;
+    padding: 3px;
+    border-bottom: 3px solid #e6df44;
+    border-top: 3px solid #e6df44;
+    border-left: 3px solid #e6df44;
+    border-right: 3px solid #e6df44;
+}
