@@ -6,30 +6,30 @@
         <title>Kyle Gibson - Resume </title>
         <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/styles2.css">
     </head>
-    <body class="kg-bg-darkgrey">
+    <body class="kg-bg-darknavy">
         <!-----Navigation----->
-        <nav class="navbar navbar-expand-md navbar-light kg-bg-grey">
+        <nav class="navbar navbar-expand-md navbar-light kg-bg-lightnavy">
             <div class="container-fluid">
-                <a class="navbar-brand kg-font-30" href="index.html" style="color:white">Kyle Gibson</a>
-                <button class="navbar-toggler ml-auto kg-hb-blue" type="button" data-toggle="collapse" data-target="#navbarBasic" aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand kg-font-30" href="index.html" style="color: #e6df44">Kyle Gibson</a>
+                <button class="navbar-toggler ml-auto kg-hb-orange" type="button" data-toggle="collapse" data-target="#navbarBasic" aria-controls="navbarBasic" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>          
                 <div class="collapse navbar-collapse justify-content-end" id="navbarBasic">
-                    <ul class="nav nav-tabs">
-                        <li class="nav-item">
-                            <a class="nav-link kg-font-20" href="index.html">Home</a>
+                    <ul class="nav nav-tabs kg-border-yellow">
+                        <li class="nav-item non-active-tab">
+                            <a class="nav-link kg-font-20 kg-font-orange" href="index.html">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link kg-font-20" href="portfolio.html">Portfolio</a>
+                        <li class="nav-item non-active-tab">
+                            <a class="nav-link kg-font-20 kg-font-orange" href="portfolio.html">Portfolio</a>
                         </li>
                         <li class="nav-item active-tab">
-                            <a class="nav-link active kg-font-20" href="resume.html">Resume</a>
+                            <a class="nav-link active kg-font-20 kg-font-orange" href="resume.html">Resume</a>
                         </li>
-                        <li class="nav-item dropdown kg-font-20">
-                                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Connect with me</a>
-                                <div class="dropdown-menu kg-dropdown-bg-grey">
+                        <li class="nav-item dropdown kg-font-20 non-active-tab">
+                                <a class="nav-link dropdown-toggle kg-font-orange" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Connect with me</a>
+                                <div class="dropdown-menu kg-dropdown-bg-lightnavy">
                                     <a class="dropdown-item kg-dropdown-item-active" href="https://github.com/kylergibson">Github</a>
                                     <a class="dropdown-item kg-dropdown-item-active" href="#">LinkedIn</a>
                                     <div class="dropdown-divider"></div>
@@ -45,17 +45,17 @@
         <div class="container p-4 w-75">
             <div class="row mb-2">
                 <div class="col text-center">
-                    <h3 class="kg-font-white kg-underline-h3"> Contact Information</h3>
+                    <h3 class="kg-font-orange kg-underline-h3-ln"> Contact Information</h3>
                 </div>
             </div>
             <div class="row">
                 <div class="col text-center">
-                    <a href="mailto:kylergib@gmail.com"><p> Email: kylergib@gmail.com</p></a>
+                    <a href="mailto:kylergib@gmail.com"><p class="kg-font-white"> Email: kylergib@gmail.com</p></a>
                 </div>
             </div>
             <div class="row">
                 <div class="col text-center">
-                    <a href="tel:7652151070"><p> Phone: 765-215-1070</p></a>
+                    <a href="tel:7652151070"><p class="kg-font-white"> Phone: 765-215-1070</p></a>
                 </div>
             </div>
         </div>
@@ -64,13 +64,17 @@
         <div class="container w-75">
                 <div class="row mb-2">
                     <div class="col text-center">
-                        <h3 class="kg-font-white kg-underline-h3"> Skills </h3>
+                        <h3 class="kg-font-orange kg-underline-h3-ln"> Skills </h3>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-6 text-center">
-                        <h4 class="kg-font-white">Programming Languages</h4>
-                        <ul class="kg-font-blue list-unstyled">
+                        <div class="row">
+                            <div class="col mb-3">
+                                <h4 class="kg-font-white block-underline flex-nowrap">Programming Languages</h4>
+                            </div>
+                        </div>
+                        <ul class="kg-font-yellow list-unstyled">
                             <li>C++</li>
                             <li>HTML</li>
                             <li>CSS</li>
@@ -79,8 +83,12 @@
                         </ul>
                     </div>
                     <div class="col-md-6 text-center">
-                        <h4 class="kg-font-white">Certifications</h4>
-                        <ul class="kg-font-blue list-unstyled">
+                        <div class="row">
+                            <div class="col mb-3">
+                                <h4 class="kg-font-white block-underline">Certifications</h4>
+                            </div>
+                        </div>
+                        <ul class="kg-font-yellow list-unstyled">
                             <li>Database Fundamentals</li>
                             <li>CompTIA A+</li>
                             <li>CompTIA Project+</li>
@@ -93,47 +101,71 @@
         <div class="container p-4w-75">
             <div class="row mb-2">
                 <div class="col">
-                    <h3 class="kg-font-white kg-underline-h3 text-center"> Job Experience </h3>
+                    <h3 class="kg-font-orange kg-underline-h3-ln text-center"> Job Experience </h3>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6">
-                    <h4 class="kg-font-white text-center">Gannett</h4>
+                <div class="col-md-6 text-center">
+                    <div class="row">
+                        <div class="col mb-3">
+                            <h4 class="kg-font-white block-underline">Gannett</h4>
+                        </div>
+
+                    </div>
+                    
                     <div class="row">
                         <div class="col-12">
-                            <h5 class="kg-font-blue text-center">Position: Operations Coordinator</h5>
-                            <h5 class="kg-font-blue text-center">Date: Oct. 2018 - Present</h5>
-                            <h5 class="kg-font-white text-center">Job Duties:</h5>
+                            <h5 class="kg-font-yellow text-center">Position: Operations Coordinator</h5>
+                            <h5 class="kg-font-yellow text-center">Date: Oct. 2018 - Present</h5>
+                            <div class="row">
+                                <div class="col mb-3">
+                                    <h5 class="kg-font-white text-center block-underline">Job Duties:</h5>
+                                </div>
+                            </div>
+                            
 
-                            <h6 class="kg-font-blue text-center">&#8226;Compiles subscriber and nonsubscriber information.</h6>
-                            <h6 class="kg-font-blue text-center">&#8226;Delivers complaints, as required.</h6>
-                            <h6 class="kg-font-blue text-center">&#8226; Performs special projects and other related tasks as required.</h6>
-                            <h6 class="kg-font-blue text-center">&#8226;Aids in the distribution of newspaper to the Independent Contractors.</h6>
-                            <h6 class="kg-font-blue text-center">&#8226;Delivers routes as needed.</h6>
-                            <h6 class="kg-font-blue text-center">&#8226;Maintains a clean and secure warehouse and parking lot.</h6>
-                            <h6 class="kg-font-blue text-center">&#8226;Retrieves newspapers from print facility for shortages, as needed.</h6>
-                            <h6 class="kg-font-blue text-center">&#8226;Verifies addresses with service issues when requested.</h6>
-                            <h6 class="kg-font-blue text-center">&#8226;Assists the District Managers with the day to day operations.</h6>
-                            <h6 class="kg-font-blue text-center">&#8226;Verifies single copy returns.</h6>
+                            <h6 class="kg-font-yellow text-center">&#8226;Compiles subscriber and nonsubscriber information.</h6>
+                            <h6 class="kg-font-yellow text-center">&#8226;Delivers complaints, as required.</h6>
+                            <h6 class="kg-font-yellow text-center">&#8226; Performs special projects and other related tasks as required.</h6>
+                            <h6 class="kg-font-yellow text-center">&#8226;Aids in the distribution of newspaper to the Independent Contractors.</h6>
+                            <h6 class="kg-font-yellow text-center">&#8226;Delivers routes as needed.</h6>
+                            <h6 class="kg-font-yellow text-center">&#8226;Maintains a clean and secure warehouse and parking lot.</h6>
+                            <h6 class="kg-font-yellow text-center">&#8226;Retrieves newspapers from print facility for shortages, as needed.</h6>
+                            <h6 class="kg-font-yellow text-center">&#8226;Verifies addresses with service issues when requested.</h6>
+                            <h6 class="kg-font-yellow text-center">&#8226;Assists the District Managers with the day to day operations.</h6>
+                            <h6 class="kg-font-yellow text-center">&#8226;Verifies single copy returns.</h6>
                             <!-- <h6 class="kg-font-blue text-center">&#8226;</h6> -->
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 text-center">
-                    <h4 class="kg-font-white">Concentrix</h4>
+                    <div class="row">
+                        <div class="col mb-3">
+                            <h4 class="kg-font-white block-underline">Concentrix</h4>
+                        </div>
+                    </div>
                     <div class="row">
                             <div class="col-12">
-                                <h5 class="kg-font-blue text-center">Position: Senior Customer Service Representative</h5>
-                                <h5 class="kg-font-blue text-center">Date: Aug. 2016-Oct. 2018</h5>
-                                <h5 class="kg-font-white text-center">Job Duties:</h5>
-    
-                                <h6 class="kg-font-blue text-center">&#8226;Handle escalated customer issues until they were resolved.</h6>
-                                <h6 class="kg-font-blue text-center">&#8226;Once contact was made with a customer I was their point of contact until an official resolution.</h6>
-                                <h6 class="kg-font-blue text-center">&#8226;Evaluate and give feedback on advisers below me and give them professional criticism to help improve.</h6>
-                                <h6 class="kg-font-blue text-center">&#8226;Resolve account based issues relating to password, usernames and logins.</h6>
-                                <h6 class="kg-font-blue text-center">&#8226;Resolve technical software issues.</h6>
-                                <h6 class="kg-font-blue text-center">&#8226;Diagnose hardware issues and set up service.</h6>
-                                <h6 class="kg-font-blue text-center">&#8226;Troubleshoot a variety of devices (androids, iOS devices, apple watches, windows OS and Mac OS).</h6>
+                                <h5 class="kg-font-yellow text-center">Position: Senior Customer Service Representative</h5>
+                                <h5 class="kg-font-yellow text-center">Date: Aug. 2016-Oct. 2018</h5>
+                                <div class="row">
+                                    <div class="col mb-3">
+                                        <h5 class="kg-font-white text-center block-underline">Job Duties:</h5>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col mb-5">
+                                            <h6 class="kg-font-yellow text-center">&#8226;Handle escalated customer issues until they were resolved.</h6>
+                                            <h6 class="kg-font-yellow text-center">&#8226;Once contact was made with a customer I was their point of contact until an official resolution.</h6>
+                                            <h6 class="kg-font-yellow text-center">&#8226;Evaluate and give feedback on advisers below me and give them professional criticism to help improve.</h6>
+                                            <h6 class="kg-font-yellow text-center">&#8226;Resolve account based issues relating to password, usernames and logins.</h6>
+                                            <h6 class="kg-font-yellow text-center">&#8226;Resolve technical software issues.</h6>
+                                            <h6 class="kg-font-yellow text-center">&#8226;Diagnose hardware issues and set up service.</h6>
+                                            <h6 class="kg-font-yellow text-center">&#8226;Troubleshoot a variety of devices (androids, iOS devices, apple watches, windows OS and Mac OS).</h6>
+                                    </div>
+                                </div>
+                                
+                                
                                 <!-- <h6 class="kg-font-blue text-center">&#8226;</h6> -->
                             </div>
                         </div>

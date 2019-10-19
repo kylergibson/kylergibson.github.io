@@ -1,5 +1,5 @@
 /* ---- Background ---- */
-.kg-bg-darkgrey {
+.kg-bg-darknavy {
     background-color: #011A27;
 }
 
@@ -8,24 +8,53 @@
     background-color: #011A27;
     color: #F0810F;
     font-weight: 500;
+    border-left-color: #e6df44;
+    border-right-color: #e6df44;
+    border-top-color: #e6df44;
+    border-width: 3px;
+    border-bottom-color: #e6df44;
+    border-bottom-width: 2px;
+}
+.nav-tabs .non-active-tab:hover .nav-link {
+    background-color: #011a27;
+    color: #e6df44;
+    border-left-color: #f0810f;
+    border-top-color: #f0810f;
+    border-right-color: #f0810f;
+    border-bottom: none;
+    border-width: 3px;
 }
 
+/* .nav-link:hover {
+    background-color: #F0810F;
+    color: #011A27;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: none; */
+}
 .kg-font-yellow {
     color: #e6df44;
 }
 .kg-font-20 {
     font-size: 20px;
-    color: #F0810F;
 }
-
+.kg-border-yellow {
+    border-bottom-color: #e6df44;
+    border-width: 3px;
+}
+.kg-l-border-yellow {
+    border-left-color: #e6df44;
+    border-width: 3px;
+}
 .kg-font-30 {
     font-size: 30px;
 }
 
-.kg-bg-grey {
+.kg-bg-lightnavy {
     background-color: #063852;
 }
-.kg-dropdown-bg-grey {
+.kg-dropdown-bg-lightnavy {
     background-color: #063852;
 }
 .dropdown-toggle:open {
@@ -55,21 +84,21 @@
     color: #063852;
 }
 
-.kg-hb-blue .navbar-toggler-icon {
+.kg-hb-orange .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(240,129,15, 1)' stroke-width='2.5' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
   }
 
-  .kg-hb-blue.navbar-toggler {
+  .kg-hb-orange.navbar-toggler {
       border-color: #f0810f;
       border-width: 3px;
   }
 
 /* ---- Portfolio ---- */ 
 
-.kg-font-blue {
+.kg-font-orange {
     color: #F0810F;
 }
-.kg-underline {
+.kg-underline-lightnavy {
     /* text-decoration: underline;
     text-decoration-color: #007bff;
     text-decoration-thickness: 5px; */
@@ -83,8 +112,11 @@
 h1 {
     border-bottom: 4 px #007bff;
 }
-.kg-underline-h2 {
+.kg-underline-h2-ln {
     border-bottom: 3px solid #063852;
+}
+.kg-font-yellow {
+    color: #e6df44;
 }
 
 /* ---- images ---- */
@@ -94,13 +126,35 @@ h1 {
 
 /* ---- Resume ----- */
 
-.kg-underline-h3 {
-    border-bottom: 3px solid #007bff
+.kg-underline-h3-yellow {
+    border-bottom: 3px solid #e6df44;
+}
+.kg-underline-h3-ln {
+    border-bottom: 3px solid #063852;
 }
 
+.kg-underline-orange {
+    border-bottom: 2px solid #f0810f; 
+}
+.block-underline {
+    display: inline;
+    border-bottom: 3px solid #f0810f;
+}
+.kg-font-lightnavy {
+    color: #063852;
+}
 .kg-list {
     text-align: center;
     list-style: none;
     list-style-position: outside;
     
 }
+div:after {
+    content:""; 
+    background: black; 
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    height: 50%; 
+    width: 1px;
+  }
